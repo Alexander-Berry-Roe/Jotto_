@@ -134,12 +134,7 @@ public class Controller {
     @FXML
     private void txtFieldKeyPressed(KeyEvent event) {
         if(event.getCode() == event.getCode().ENTER){
-            if(row<=4 && !word.solved){
-                onEnter();
-            }
-            else {
-                nextWord();
-            }
+            onEnter();
         }
     }
 
